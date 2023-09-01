@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="website.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg body-padding sticky-top d-flex">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse ">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active" href="">Anasayfa</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#">Programlama Dilleri</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="">C</a></li>
+                                    <li><a class="dropdown-item" href="">C++</a></li>
+                                    <li><a class="dropdown-item" href="">C#</a></li>
+                                    <li><a class="dropdown-item" href="">JAVA</a></li>
+                                    <li><a class="dropdown-item" href="">PYTHON</a></li>
+                                    <li><a class="dropdown-item" href="">js/CSS/HTML</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#">Kurslar</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="">Web Geliştirme</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="">Mobil Uygulama</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="">Oyun Geliştirme</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="">Veri Bilimi</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="">
+                            <form class="d-flex" role="search">
+                                <input type="search" class="rounded-2 " placeholder="Search">
+                                <button class="btn btn-outline-secondary" type="submit">Search</button>
+                            </form>
+                        </div>
+                        <div class="icon d-flex m-3">
+                            <a class="m-2" href="https://www.youtube.com/">
+                                <i class="fa-brands fa-youtube" style="color:white;"></i>
+                            </a>
+                            <a class="m-2" href="#">
+                                <i class="fa-brands fa-twitter" style="color:white;"></i>
+                            </a>
+                            <a class="m-2" href="#">
+                                <i class="fa-brands fa-linkedin-in" style="color:white;"></i>
+                            </a>
+                            <a class="m-2" href="#">
+                                <i class="fa-brands fa-github" style="color:white;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="col-3 ">
+                <div class="leftmenu">
+                    <div class="flex-shrink-0 overflow-auto" style="width: 280px;">
+                        <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                            <svg class="bi pe-none me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                            <span class="fs-5 fw-semibold">Collapsible</span>
+                        </a>
+                        <ul class="list-unstyled ps-0">
+                            <li class="mb-1">
+                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                          Home
+                        </button>
+                                <div class="collapse" id="home-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Overview</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Updates</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Reports</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                          Dashboard
+                        </button>
+                                <div class="collapse" id="dashboard-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Overview</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Weekly</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Monthly</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Annually</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-1">
+                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                          Orders
+                        </button>
+                                <div class="collapse" id="orders-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">New</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Processed</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Shipped</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Returned</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Returned</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Returned</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Returned</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Returned</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Returned</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="border-top my-3"></li>
+                            <li class="mb-1">
+                                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                          Account
+                        </button>
+                                <div class="collapse" id="account-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">New...</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Profile</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Settings</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="iframe ">
+                    <h2>Başlık</h2>
+                    <iframe src="https://www.youtube.com/embed/yEvX5EEKTlQ" title="YouTube video player"></iframe>
+                    <h3>Başlık2</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas laudantium perferendis nulla iste dolorem eaque rem quis, alias possimus sit unde ducimus adipisci at, exercitationem sed dolor. Aliquid, voluptatem voluptatum. Saepe
+                        incidunt quia nemo voluptates eaque fugit, eos earum assumenda odit vitae facere accusamus veniam adipisci cupiditate similique blanditiis possimus accusantium doloribus porro laboriosam inventore. Veritatis corporis sit obcaecati
+                        unde.
+                    </p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="rigthmenu p-0 d-flex flex-column ">
+                    <div class="card mx-0">
+                        <img src="practicsimg/img1.jpg " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Card title</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="# " class="btn btn-success ">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="practicsimg/img2.jpg " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Card title</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="# " class="btn btn-success ">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card ">
+                        <img src="practicsimg/img3.jpg " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Card title</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="# " class="btn btn-success ">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <footer class="py-3 mt-5 d-f p-0">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+                    <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">Home</a></li>
+                    <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">Features</a></li>
+                    <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">Pricing</a></li>
+                    <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">FAQs</a></li>
+                    <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">About</a></li>
+                    <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">About</a></li>
+                    <li class="nav-item "><a href="# " class="nav-link px-2 text-muted ">About</a></li>
+                </ul>
+                <p class="text-center text-muted ">© 2022 Company, Inc</p>
+            </footer>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa " crossorigin="anonymous "></script>
+</body>
+
+</html>
